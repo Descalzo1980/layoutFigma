@@ -8,12 +8,10 @@
 .header-row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }       
-.header-logo{
-} 
-
 .header-nav{
+    margin-left: 172px;
     font-weight: 500;
     color:#292929;
 }
@@ -43,5 +41,48 @@
 .header-nav a:hover{
     color:#01996D;
 }
+.header-login a {
+    color:#000;
+}
+
+.header-login a:hover {
+    color:#01996D;
+    transition: color 1s ease;
+}
+
+.btn, a.btn{
+    display: inline-block;
+    background-color:#01996D;
+    height: 51px;
+    line-height: 51px; /*высота строки равна высоте кнопки*/
+
+    /* min-height: 51px; другой способ
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; */
+
+
+    padding-left: 50px;
+    padding-right: 50px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover, a.btn:hover{
+    opacity: 0.8;
+    color:#fff;
+}
+
 .header-login{
+    display: flex;
+    align-items:center;
+    margin-left:auto;
+}
+
+.header-login > * + *{
+    margin-left: 35px;
 }
