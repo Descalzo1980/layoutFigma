@@ -14,7 +14,34 @@
 } 
 
 .header-nav{
-} 
+    font-weight: 500;
+    color:#292929;
+}
 
+.header-nav ul{
+    display: flex;
+}
+
+/* Три варианта выравнивания */
+/* .header-nav li:not(:last-child){
+    margin-right: 70px;
+}
+
+.header-nav li:last-child{
+    margin-right: 0px;
+} */
+
+.header-nav li + li{
+    margin-left: 70px;
+}
+
+/*  */
+
+.header-nav a{
+    transition: color 1s ease;
+}
+.header-nav a:hover{
+    color:#01996D;
+}
 .header-login{
 }
