@@ -2,7 +2,7 @@
     padding-top: 175px;
     padding-bottom: 175px;
     min-height: 895px;
-    background-color:bisque;
+    position: relative;
 }
 
 .home-content{
@@ -23,6 +23,7 @@
 .home-text{
     color:#484848;
     line-height: 144%;
+    max-width: 430px;
 }
 
 .home-text + * {
@@ -33,4 +34,19 @@
     display: flex;
 }
 
+.home-bg-img{
+    background-color:bisque;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.home-bg-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
