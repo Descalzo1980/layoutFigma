@@ -37,18 +37,17 @@
 
 .header-nav a{
     transition: color 1s ease;
-}
+} 
 .header-nav a:hover{
     color:#01996D;
 }
-.header-login a {
+.header-login-link {
     color:#000;
 }
 
-.header-login a:hover {
+/* .header-login a:hover {
     color:#01996D;
-    transition: color 1s ease;
-}
+} */
 
 .header-login{
     display: flex;
