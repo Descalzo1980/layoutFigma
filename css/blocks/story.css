@@ -39,6 +39,8 @@
 .story-video{
     width: 895px;
     position: relative;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .story-video-btn{
