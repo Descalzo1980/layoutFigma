@@ -1,5 +1,5 @@
 .story{
-    padding: 229px 176px;
+    padding: 229px 0 176px;
     background-color: #245852;
     color: #fff;
 }
@@ -22,7 +22,7 @@
     font-family: Georgia serif;
 }
 
-.step-heading + *{
+.step-heading + * {
     margin-top: 33px;
 }
 .story-text{
@@ -30,14 +30,11 @@
     font-size: 25px;
     line-height: 157%;
 }
-.story-text + *{
+.story-text + * {
     margin-top: 57px;
 }
 .story-btn{
     display: flex;
-}
-.btn-big{
-
 }
 .story-video{
     width: 895px;
@@ -59,10 +56,3 @@
     background-color: rgba(0, 0, 0, 0.2);
 
 }
-/* .story-video-object{
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-} */
